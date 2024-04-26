@@ -141,7 +141,10 @@ function WeatherApp() {
         <div>
           <div className="city-name">
             <h2>
-              {weather.data.name}, <span>{weather.data.sys.country}</span>
+              <button class="city-name2">
+                {weather.data.name}, <span>{weather.data.sys.country}</span>
+              </button>
+              
             </h2>
           </div>
           <div className="date">
