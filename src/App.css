@@ -8,25 +8,34 @@ html {
     background-color: #f7f7f7;
 }
  
-.app-name {
+.App-name {
     font-size: 2.3rem;
     color: rgb(17, 144, 0);
     margin-bottom: 16px;
 }
  
 .App {
-    display: flex;
+position: relative;
+  display: flex;
+  
+  background: #C6C6D0;
+  color: #212121;
+  box-shadow: inset 0 0 0 4px #212121;
+  transition: .6s 0.4s;
+  cursor: pointer;
+
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 600px;
     min-height: 440px;
-    background-color: rgb(255, 255, 255);
+   
     text-align: center;
     margin: 128px auto;
     border-radius: 10px;
     padding-bottom: 32px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
 }
  
 .city-search {
@@ -570,32 +579,32 @@ button:active {
   opacity: 0.9;
 }
 
-.card:hover {
+.App:hover {
   background-color: transparent;
   transition-delay: 0s;
 }
 
-.card:hover .border line {
+.App:hover .border line {
   transition-delay: 0.1s;
 }
 
-.card:hover .border line.top {
+.App:hover .border line.top {
   transform: translateX(-400px);
 }
 
-.card:hover .border line.bottom {
+.App:hover .border line.bottom {
   transform: translateX(400px);
 }
 
-.card:hover .border line.left {
+.App:hover .border line.left {
   transform: translateY(640px);
 }
 
-.card:hover .border line.right {
+.App:hover .border line.right {
   transform: translateY(-640px);
 }
 
-.card:hover .logo {
+.App:hover .logo {
   transition-delay: 0s;
   transform: scale(1.1);
   fill: #C6C6D0;

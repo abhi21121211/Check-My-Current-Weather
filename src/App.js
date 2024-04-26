@@ -73,15 +73,15 @@ function WeatherApp() {
 
   return (
     <div className="App">
-      <div class="card">
+     
         <svg height="100%" width="100%" class="border" xmlns="http://www.w3.org/2000/svg">
           <line y2="0" x2="600" y1="0" x1="0" class="top"></line>
           <line y2="-960" x2="0" y1="320" x1="0" class="left"></line>
           <line y2="320" x2="-600" y1="320" x1="200" class="bottom"></line>
-          <line y2="960" x2="200" y1="0" x1="200" class="right"></line>
+          {/* <line y2="960" x2="200" y1="0" x1="200" class="right"></line> */}
         </svg>
         
-      </div>
+     
 
       
 
